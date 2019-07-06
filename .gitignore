@@ -85,3 +85,4 @@ sw.*
 
 /.settings/
 /.project
+node_modules
