@@ -38,7 +38,7 @@ Using npm:
 npm install
 ```
 
-## 🔌 Serve with hot reload at localhost:4000
+## 🔌 Serve with hot reload at localhost:3000
 
 ```bash
 $ yarn start
