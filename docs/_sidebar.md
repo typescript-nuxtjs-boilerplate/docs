@@ -2,7 +2,7 @@
 
   - [ページを追加する-quickstart](nuxt/quickstart.md)
 
-- [npm scriptsの解説](npm-scripts.md)
+- [npm scriptsの解説](nuxt/npm-scripts.md)
   
 - TypeScript
 
@@ -17,6 +17,7 @@
   - [asyncDataとfetchの使い分け]()
   - [asyncDataとfetch内でのthisについて]()
   - [Ajax中にCSRした場合のaxiosのキャンセルについて]()
+  - [CSS ModulesなのかScopedなのか]()
   - [nuxt-property-decorator]()
  
 - Vuex(Store)
