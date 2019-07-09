@@ -6,7 +6,7 @@ Check out the [Showcase](https://typescript-nuxtjs-boilerplate.netlify.com/examp
 
 ## What it is
 
-`typescript-nuxtjs-boilerplate` は [hisasann](https://github.com/hisasann) が独断と偏見でいろいろと試しているリポジトリです。
+`typescript-nuxtjs-boilerplate` は Nuxt.js + TypeScript をこれから学ぼうとされている **初学者向けのリポジトリ** です。
 
 そして、これからの時代で SSR はとても面白い技術になってくるので、誰でも使えるようにボイラープレートを用意し、いろんな方の手に馴染むように Example を増やし続けています。
 
