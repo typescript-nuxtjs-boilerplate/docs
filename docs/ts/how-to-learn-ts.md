@@ -28,6 +28,12 @@ Example も豊富なので、困ることはないでしょう。
 
 [Introduction - TypeScript Deep Dive 日本語版](https://typescript-jp.gitbook.io/deep-dive/)
 
+また、本家をぼくは定期的に見に行くようにしています。
+
+結構自分の知らない機能があったりするものです。
+
+[Documentation · TypeScript](https://www.typescriptlang.org/docs/home.html)
+
 ## ぼくなりの勉強の仕方
 
 TypeScript は新しい機能がどんどん追加されているので、小さな試せる環境を作っておくと便利かと思います。
