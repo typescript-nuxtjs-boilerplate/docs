@@ -4,7 +4,7 @@
 
 Nuxt.js のボイラープレートの全容は、 
 
-[hisasann/typescript-nuxtjs-boilerplate: Nuxt.js with TypeScript and Run with docker and docker-compose](https://github.com/hisasann/typescript-nuxtjs-boilerplate)
+[typescript-nuxtjs-boilerplate/typescript-nuxtjs-boilerplate: Nuxt.js with TypeScript and Run with docker and docker-compose](https://github.com/typescript-nuxtjs-boilerplate/typescript-nuxtjs-boilerplate)
 
 こちらのリポジトリをご覧ください。
 

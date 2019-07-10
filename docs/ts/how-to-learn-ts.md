@@ -16,7 +16,7 @@
 
 とくに日本人が書いているので、読みやすく、 `BFF` や `Nuxt.js` の話も出てくるので、ひじょうに面白い良書です。
 
-[実践TypeScript ~ BFFとNext.js&Nuxt.jsの型定義~ | 吉井 健文 |本 | 通販 | Amazon](https://www.amazon.co.jp/exec/obidos/ASIN/483996937X/techhisasann-22/ref=nosim/)
+[実践TypeScript ~ BFFとNext.js&Nuxt.jsの型定義~ | 吉井 健文 |本 | 通販 | Amazon](https://www.amazon.co.jp/exec/obidos/ASIN/483996937X/)
 
 ## サイト
 
