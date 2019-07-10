@@ -8,9 +8,6 @@
 
   - [学習の仕方について](ts/how-to-learn-ts.md)
   - [TypeScriptをどの程度使うか](ts/how-much-you-use-ts.md)
-  - [型を付ける]()
-  - [Interfaceを使う]()
-  - [Enumを使う]()
   
 - Page(.vue)
 
