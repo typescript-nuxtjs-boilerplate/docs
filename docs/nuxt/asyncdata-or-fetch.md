@@ -30,11 +30,41 @@
 
 [非同期なデータ - Nuxt.js](https://ja.nuxtjs.org/guide/async-data)
 
+```vue
+<template>
+<h1>{{ title }}</h1>
+</template>
+
+<script>
+export default {
+  async asyncData ({ params }) {
+    let { data } = await axios.get(`https://my-api/posts/${params.id}`)
+    return { title: data.title }
+  }
+}
+</script>
+```
+
 ## fetchメソッド
 
 > fetch メソッドは、ページがレンダリングされる前に、データをストアに入れるために使われます。コンポーネントのデータをセットしないという点を除いては asyncData メソッドとよく似ています。
 
 [API: fetch メソッド - Nuxt.js](https://ja.nuxtjs.org/api/pages-fetch/)
+
+```vue
+<template>
+<h1>Stars: {{ $store.state.stars }}</h1>
+</template>
+
+<script>
+export default {
+  async fetch ({ store, params }) {
+    let { data } = await axios.get('http://my-api/stars')
+    store.commit('setStars', data)
+  }
+}
+</script>
+```
 
 ## Nuxt.js のライフサイクルについて
 
