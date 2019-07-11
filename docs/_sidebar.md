@@ -11,8 +11,8 @@
   
 - Page(.vue)
 
-  - [asyncDataとfetchの使い分け]()
-  - [asyncDataとfetch内でのthisについて]()
+  - [asyncDataとfetchの使い分け](nuxt/asyncdata-or-fetch.md)
+  - [asyncDataとfetch内でのthisについて](nuxt/about-this-in-asyncdata-and-fetch.md)
   - [Ajax中にCSRした場合のaxiosのキャンセルについて]()
   - [CSS ModulesなのかScopedなのか]()
   - [nuxt-property-decorator]()
