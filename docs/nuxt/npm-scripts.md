@@ -1,6 +1,6 @@
 ## npm scriptsの解説
 
-## yarn run dev or yarn run local
+## yarn run dev `or` yarn run local
 
 local で開発するにはこちらを使います。
 
@@ -18,7 +18,7 @@ nuxt コマンド内部では、この環境変数は `development` に書き換
 
 `BUILD_ENV=local` 
 
-## yarn run build or yarn run build:local
+## yarn run build `or` yarn run build:local
 
 `--no-lock` を付いていますが、 Nuxt.js のエラーが出たためつけています。
 
@@ -47,6 +47,8 @@ nuxt コマンド内部では、この環境変数は `development` に書き換
 `hardSource: true`
 
 というのがありますが、内部的にプログラムをキャッシュしてビルドを高速にするプロパティです。
+
+[mzgoddard/hard-source-webpack-plugin](https://github.com/mzgoddard/hard-source-webpack-plugin)
 
 これを true にするしないで速度が別物になりますが、たまにキャッシュがうまくされずエラーが出てしまう場合があります。
 
