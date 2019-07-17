@@ -13,7 +13,7 @@
 
   - [asyncDataとfetchの使い分け](nuxt/asyncdata-or-fetch.md)
   - [asyncDataとfetch内でのthisについて](nuxt/about-this-in-asyncdata-and-fetch.md)
-  - [Ajax中にCSRした場合のaxiosのキャンセルについて]()
+  - [CSRした場合のaxiosのキャンセルについて](nuxt/about-cancellation-of-axios-in-case-of-csr.md)
   - [CSS ModulesなのかScopedなのか]()
   - [nuxt-property-decorator]()
  
@@ -53,7 +53,6 @@
 - Docker
 
   - [Nuxt.jsにenvをどう渡すのか]()
-  - [AWS ECSの素晴らしさ]()
   
 - テスト
 

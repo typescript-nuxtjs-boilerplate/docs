@@ -36,7 +36,3 @@ export default class Sample extends Vue {
 asyncData と fetch が特殊なのであって、 `created` や `mounted` では問題なく **this** にアクセスできます。
 
 つまり、 Vue.js のライフサイクル上のメソッドは問題ないのですが、 Nuxt.js のライフサイクルメソッドでは this アクセスできないという感じになります。
-
-## asyncDataとfetch内でthisが使いたくなるとき
-
-TODO: あとで書く
