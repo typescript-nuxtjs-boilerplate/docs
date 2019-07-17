@@ -7,7 +7,7 @@
   "private": true,
   "scripts": {
     "start": "docsify serve ./docs",
-    "textlint": "textlint --config .textlintrc ./*.md",
+    "textlint": "textlint --config .textlintrc ./docs/**/*.md",
     "textlint:fix": "yarn textlint --fix --format diff"
   },
   "dependencies": {
