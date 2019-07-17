@@ -4,7 +4,7 @@
 
 **SSR（サーバーサイド）** と **CSR（他のルートへ移動したとき）** に呼び出され、 `非同期処理に対応` します。
 
-なので、 SEO や head タグの中身 を意識した画面で、 ajax するなら、このどちらかのメソッドでするとよいでしょう。
+なので、 SEO や head タグの中身を意識した画面で、 ajax するなら、このどちらかのメソッドでするとよいでしょう。
 
 2つのメソッドの違いについては、以下の記事を読むとよく理解できるのですが、
 
@@ -68,7 +68,7 @@ export default {
 
 ### Nuxt.js modules, serverMiddleware and plugins
 
-こちらは、 asyncDataとfetch にはあまり関係ないですが、見ておくとよいでしょう。
+こちらは、 asyncData と fetch にはあまり関係ないですが、見ておくとよいでしょう。
 
 ![https://pbs.twimg.com/media/DeqXp7PUwAAvMIk.jpg:large](https://pbs.twimg.com/media/DeqXp7PUwAAvMIk.jpg:large)
 

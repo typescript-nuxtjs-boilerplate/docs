@@ -48,7 +48,7 @@ source.cancel('Operation canceled by the user.');
 
 ## キャンセルを意識しないajaxをする
 
-Vuex（store） で、 API 呼び出しをすることが多いと思いますが、
+Vuex（store）で、 API 呼び出しをすることが多いと思いますが、
 
 CSR 時に asyncData で ajax が実行され、それがキャンセルされたとしても、
 
@@ -56,7 +56,7 @@ CSR 時に asyncData で ajax が実行され、それがキャンセルされ�
 
 たとえば、 ajax 完了時に `window.alert` を出すようにしておくと、 ajax がキャンセルされなかったときに弊害が出てしまいます。
 
-これは、 Vuex 側で `window.alert` を出すのではなく、 dispatch を使っているコンポーネント側で書くのも一つの方法です。
+これは、 Vuex 側で `window.alert` を出すのではなく、 dispatch を使っているコンポーネント側で書くのも1つの方法です。
 
 ```javascript
 <script>
