@@ -43,7 +43,7 @@
 
 - バリデーション
 
-  - [vee-validateを使う]()
+  - [vee-validateを使う](nuxt/vee-validate.md)
 
 - ヘルスチェック
 
