@@ -43,7 +43,11 @@
 - バリデーション
 
   - [vee-validateを使う](nuxt/vee-validate.md)
+  
+- エラー
 
+  - [Nuxt.jsでAPIエラーをどう扱うか](nuxt/how-to-use-error.md)
+  
 - ヘルスチェック
 
   - [NuxtサーバーとBFFを含めたヘルスチェック]()
