@@ -69,4 +69,5 @@
 
   - [気をつけるポイント]()
   - [ログイン処理をどう実装するか]()
+  - [サーバーサイドのログ処理](nuxt/server-side-logging.md)
   - [Google Tag Manager]()
