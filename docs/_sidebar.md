@@ -63,11 +63,11 @@
   
 - ツール
 
-  - [オススメライブラリ一覧]()
+  - [オススメライブラリ一覧](tools/recommend-tools.md)
   
 - その他
 
-  - [気をつけるポイント]()
-  - [ログイン処理をどう実装するか]()
+  - [開発で気をつけるポイント](other/development-tips.md)
+  - [Nuxt.jsを使ったログイン周りの仕組みについて]()
   - [サーバーサイドのログ処理](nuxt/server-side-logging.md)
   - [Google Tag Manager]()
