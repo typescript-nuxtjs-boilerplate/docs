@@ -51,8 +51,8 @@
   
 - ヘルスチェック
 
-  - [NuxtサーバーとBFFを含めたヘルスチェック]()
-  - [Nuxtサーバーだけのヘルスチェック]()
+  - [NuxtサーバーとBFFを含めたヘルスチェック](nuxt/health-check-with-bff.md)
+  - [Nuxtサーバーだけのヘルスチェック](nuxt/health-ckeck.md)
 
 - Docker
 
