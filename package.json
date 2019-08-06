@@ -8,10 +8,28 @@
   "scripts": {
     "start": "docsify serve ./docs",
     "textlint": "textlint --config .textlintrc ./docs/**/*.md",
-    "textlint:fix": "yarn textlint --fix --format diff"
+    "textlint:fix": "yarn textlint --fix --format diff",
+    "precommit": "npm run textlint"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn precommit"
+    }
+  },
+  "author": {
+    "name": "hisasann",
+    "email": "hisasann25@gmail.com",
+    "url": "https://github.com/hisasann"
+  },
+  "keywords": [
+    "nuxt",
+    "typescript"
+  ],
   "dependencies": {
+  },
+  "devDependencies": {
     "docsify-cli": "^4.3.0",
+    "husky": "^3.0.2",
     "textlint": "^11.2.5",
     "textlint-filter-rule-whitelist": "^2.0.0",
     "textlint-rule-no-todo": "^2.0.1",

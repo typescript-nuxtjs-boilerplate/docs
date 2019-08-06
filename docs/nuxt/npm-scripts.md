@@ -59,23 +59,23 @@ nuxt コマンド内部では、この環境変数は `development` に書き換
 |Script|Summary|
 |:---:|:---:|
 |`local`|`npm run dev`のエイリアス|
-|`dev`|Nuxtの開発サーバーを起動する|
-|`dev:markup`|マークアップ向けにSPAモードで開発サーバーを起動する|
-|`build`|Universalモードとしてビルドする|
+|`dev`|Nuxt の開発サーバーを起動する|
+|`dev:markup`|マークアップ向けに SPA モードで開発サーバーを起動する|
+|`build`|Universal モードとしてビルドする|
 |`build:static`|静的サイトとしてビルドする|
 |`build:local`|ローカル向けにビルドする|
-|`build:docker`|Docker向けにビルドする|
-|`start`|ビルドされたNuxtアプリを起動する|
-|`lint`|ESLintのフォーマットチェックを実行する|
-|`lintfix`|ESLintのチェック＋自動修正|
+|`build:docker`|Docker 向けにビルドする|
+|`start`|ビルドされた Nuxt アプリを起動する|
+|`lint`|ESLint のフォーマットチェックを実行する|
+|`lintfix`|ESLint のチェック＋自動修正|
 |`precommit`|コミット前に実行する処理|
-|`test`|Jestのテストを実行する|
-|`clean:cache`|Nuxtのキャッシュを削除する|
-|`storybook`|Storybookを起動する|
+|`test`|Jest のテストを実行する|
+|`clean:cache`|Nuxt のキャッシュを削除する|
+|`storybook`|Storybook を起動する|
 |`analyze`|ビルドファイルを解析する|
-|`docker`|Docker関連|
-|`docker:clean`|Docker関連|
-|`container-prune`|Docker関連|
-|`image-prune`|Docker関連|
-|`system-prune`|Docker関連|
-|`stats`|Docker関連|
+|`docker`|Docker 関連|
+|`docker:clean`|Docker 関連|
+|`container-prune`|Docker 関連|
+|`image-prune`|Docker 関連|
+|`system-prune`|Docker 関連|
+|`stats`|Docker 関連|
