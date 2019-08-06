@@ -54,29 +54,28 @@ nuxt コマンド内部では、この環境変数は `development` に書き換
 
 そんなときはこちらを実行してください。
 
-## package.json の全体
+## 🖥 npm-scripts
 
-```json
-"scripts": {
-  "local": "npm run dev",
-  "dev": "cross-env NODE_ENV=development BUILD_ENV=local nuxt",
-  "build": "nuxt build --no-lock",
-  "build:static": "nuxt build --spa --no-lock",
-  "build:local": "cross-env NODE_ENV=production BUILD_ENV=local envName=local nuxt build --no-lock",
-  "build:docker": "cross-env NODE_ENV=production nuxt build --no-lock",
-  "start": "nuxt start",
-  "lint": "eslint --ext .js,.ts,.vue --ignore-path .gitignore .",
-  "lintfix": "eslint --fix --ext .js,.ts,.vue --ignore-path .gitignore .",
-  "precommit": "npm run lint",
-  "test": "jest",
-  "clean:cache": "rimraf node_modules/.cache/hard-source",
-  "storybook": "start-storybook -p 9001 -c .storybook",
-  "analyze": "cross-env NODE_ENV=production BUILD_ENV=local nuxt build --analyze",
-  "docker": "docker-compose -f docker-compose.yml up --build",
-  "docker:clean": "docker-compose -f docker-compose.yml build --no-cache && docker-compose -f docker-compose.yml up",
-  "container-prune": "docker container prune",
-  "image-prune": "docker image prune",
-  "system-prune": "docker system prune",
-  "stats": "docker container stats"
-}
-```
+|Script|Summary|
+|:---:|:---:|
+|`local`|`npm run dev`のエイリアス|
+|`dev`|Nuxtの開発サーバーを起動する|
+|`dev:markup`|マークアップ向けにSPAモードで開発サーバーを起動する|
+|`build`|Universalモードとしてビルドする|
+|`build:static`|静的サイトとしてビルドする|
+|`build:local`|ローカル向けにビルドする|
+|`build:docker`|Docker向けにビルドする|
+|`start`|ビルドされたNuxtアプリを起動する|
+|`lint`|ESLintのフォーマットチェックを実行する|
+|`lintfix`|ESLintのチェック＋自動修正|
+|`precommit`|コミット前に実行する処理|
+|`test`|Jestのテストを実行する|
+|`clean:cache`|Nuxtのキャッシュを削除する|
+|`storybook`|Storybookを起動する|
+|`analyze`|ビルドファイルを解析する|
+|`docker`|Docker関連|
+|`docker:clean`|Docker関連|
+|`container-prune`|Docker関連|
+|`image-prune`|Docker関連|
+|`system-prune`|Docker関連|
+|`stats`|Docker関連|
