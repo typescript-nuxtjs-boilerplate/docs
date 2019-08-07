@@ -34,13 +34,8 @@
 
 - Assets
 
-  - [どう使うか]()
   - [v-bindしたときにrequireにうまく変換されない場合]()
   
-- Static
-
-  - [どう使うか]()
-
 - バリデーション
 
   - [vee-validateを使う](nuxt/vee-validate.md)
@@ -52,15 +47,11 @@
 - ヘルスチェック
 
   - [NuxtサーバーとBFFを含めたヘルスチェック](nuxt/health-check-with-bff.md)
-  - [Nuxtサーバーだけのヘルスチェック](nuxt/health-ckeck.md)
+  - [Nuxtサーバーだけのヘルスチェック](nuxt/health-check.md)
 
-- Docker
+- Dockerやローカル開発
 
-  - [Nuxt.jsにenvをどう渡すのか]()
-  
-- テスト
-
-  - [.vueファイルをどうテストするのか]()
+  - [Nuxt.jsにenv（環境変数）をどう渡すのか](nuxt/how-to-use-env.md)
   
 - ツール
 
