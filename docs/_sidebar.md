@@ -15,7 +15,7 @@
   - [asyncDataとfetchの使い分け](nuxt/asyncdata-or-fetch.md)
   - [asyncDataとfetch内でのthisについて](nuxt/about-this-in-asyncdata-and-fetch.md)
   - [CSRした場合のaxiosのキャンセルについて](nuxt/about-cancellation-of-axios-in-case-of-csr.md)
-  - [nuxt-property-decorator]()
+  - [nuxt-property-decorator](nuxt/nuxt-property-decorator.md)
  
 - Vuex(Store)
 
@@ -35,6 +35,10 @@
 - Assets
 
   - [v-bindしたときにrequireにうまく変換されない場合]()
+  
+- Static
+
+  - [静的ファイルはStaticに置く]()
   
 - バリデーション
 
