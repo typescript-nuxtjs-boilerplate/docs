@@ -19,9 +19,7 @@
 - [async custom head tag](https://typescript-nuxtjs-boilerplate.netlify.com/example/async-custom-head)
 ---
 
-- [アノテーションを使ったタイプセーフパターン](https://typescript-nuxtjs-boilerplate.netlify.com/example/type-safe-vuex)
-  * TypeScript annotation
-- [$storeを拡張したタイプセーフパターン（エレガント！）](https://typescript-nuxtjs-boilerplate.netlify.com/example/counter)
+- [$storeを拡張したタイプセーフパターン](https://typescript-nuxtjs-boilerplate.netlify.com/example/counter)
   * [@lollipop-onl/vuex-typesafe-helper - npm](https://www.npmjs.com/package/@lollipop-onl/vuex-typesafe-helper)
 ---
 
