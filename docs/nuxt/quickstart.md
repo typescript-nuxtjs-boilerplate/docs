@@ -49,7 +49,7 @@ import {
   INotice
 } from '@/interfaces/api/Notice/INoticeList'
 import { cancelToken } from '@/utilities/'
-import NoticeListComponent from '@/components/pages/notice/noticeListComponent.vue'
+import NoticeListComponent from '@/components/pages/Notice/NoticeListComponent.vue'
 
 @Component({
   components: {
