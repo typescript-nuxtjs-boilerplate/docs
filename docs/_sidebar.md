@@ -17,29 +17,6 @@
   - [CSRした場合のaxiosのキャンセルについて](nuxt/about-cancellation-of-axios-in-case-of-csr.md)
   - [nuxt-property-decorator](nuxt/nuxt-property-decorator.md)
  
-- Vuex(Store)
-
-  - [storeの分割レベル]()
-  - [タイプセーフなVuexについて]()
-  
-- Middleware
-
-  - [ログイン処理で使う]()
-  - [SSR時のredirectの有用性]()
-  
-- Plugin
-    
-  - [何をプラグインにするべきか]()
-  - [プラグインの書き方]()
-
-- Assets
-
-  - [v-bindしたときにrequireにうまく変換されない場合]()
-  
-- Static
-
-  - [静的ファイルはStaticに置く]()
-  
 - バリデーション
 
   - [vee-validateを使う](nuxt/vee-validate.md)
