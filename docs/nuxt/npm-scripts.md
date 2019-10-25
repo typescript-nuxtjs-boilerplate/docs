@@ -34,7 +34,7 @@ nuxt コマンド内部では、この環境変数は `development` に書き換
 
 `Dockerfile` 経由で呼ばれる docker 向けのビルドになります。
 
-## yarn run lintfix
+## yarn run lintjs:fix
 
 `eslint` と `prettier` を `--fix` で実行します。
 
@@ -66,8 +66,11 @@ nuxt コマンド内部では、この環境変数は `development` に書き換
 |`build:local`|ローカル向けにビルドする|
 |`build:docker`|Docker 向けにビルドする|
 |`start`|ビルドされた Nuxt アプリを起動する|
-|`lint`|ESLint のフォーマットチェックを実行する|
-|`lintfix`|ESLint のチェック＋自動修正|
+|`lintjs`|ESLint のフォーマットチェックを実行する|
+|`lintjs:fix`|ESLint のチェック＋自動修正|
+|`lintcss`|Stylelint のフォーマットチェックを実行する|
+|`lintmd`|Textlint のフォーマットチェックを実行する|
+|`lintmd:fix`|Textlint のチェック＋自動修正|
 |`precommit`|コミット前に実行する処理|
 |`test`|Jest のテストを実行する|
 |`clean:cache`|Nuxt のキャッシュを削除する|
