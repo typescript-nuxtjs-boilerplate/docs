@@ -43,4 +43,3 @@
   - [開発で気をつけるポイント](other/development-tips.md)
   - [Nuxt.jsを使ったログイン周りの仕組みについて](nuxt/about-the-login-system.md)
   - [サーバーサイドのログ処理](nuxt/server-side-logging.md)
-  - [Google Tag Manager]()
