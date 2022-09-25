@@ -33,6 +33,6 @@
     "textlint-filter-rule-whitelist": "^2.0.0",
     "textlint-rule-no-todo": "^2.0.1",
     "textlint-rule-preset-ja-spacing": "^2.0.1",
-    "textlint-rule-preset-jtf-style": "^2.3.3"
+    "textlint-rule-preset-jtf-style": "2.3.13"
   }
 }
