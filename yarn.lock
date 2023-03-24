@@ -3668,9 +3668,7 @@ textlint-rule-prh@^5.0.0:
     untildify "^3.0.3"
 
 textlint@^11.3.1:
-  version "11.3.1"
-  resolved "https://registry.yarnpkg.com/textlint/-/textlint-11.3.1.tgz#f9ca5e3f387b90eb5c6509e4f2fa7fe5b9f11b5f"
-  integrity sha512-svbO/fhj7dLTJcdKgrW5fJtNRHoFFVL+sutsKBmNUcSJgvgWteLOUZAKT/dp/4S0QfkwkpNOts7Bzn9T+0h0Cw==
+  version "11.9.1"
   dependencies:
     "@textlint/ast-node-types" "^4.2.4"
     "@textlint/ast-traverse" "^2.1.5"
